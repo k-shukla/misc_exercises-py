@@ -50,7 +50,7 @@ class Node(object):
    
     I won't do type-checking here to see if any references to prev_node or next_node are actually of
     the correct type (i.e. type Node or None), since that is already handled in the definition of the
-    Node class.'''
+    Node class. '''
 
 class LinkedList(object):
     

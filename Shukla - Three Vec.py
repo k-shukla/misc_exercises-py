@@ -1,11 +1,11 @@
-'''As practice with using classes, I'm going to define a class corresponding to three-vectors
-   (named, appropriately, ThreeVec).
+''' As practice with using classes, I'm going to define a class corresponding to three-vectors
+    (named, appropriately, ThreeVec).
    
-   ThreeVec will support vector addition and subtraction, scalar multiplication and division, dot
-   products (which, perhaps confusingly, will /also/ be represented by *, so that for three vectors
-   v1 and v2 and a scalar k, scalar multiplication will be represented as k * v1, and dot products
-   will be represented as v1 * v2), magnitudes, the creation of unit vectors, component-by-component
-   comparison, and parity.'''
+    ThreeVec will support vector addition and subtraction, scalar multiplication and division, dot
+    products (which, perhaps confusingly, will /also/ be represented by *, so that for three vectors
+    v1 and v2 and a scalar k, scalar multiplication will be represented as k * v1, and dot products
+    will be represented as v1 * v2), magnitudes, the creation of unit vectors, component-by-component
+    comparison, and parity. '''
 
 class ThreeVec(object):
     

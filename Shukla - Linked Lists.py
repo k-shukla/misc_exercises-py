@@ -1,9 +1,9 @@
-'''Here, we construct linked lists, a type of data structure useful particularly in slightly
-   lower-level languages such as C.'''
+''' Here, we construct linked lists, a type of data structure useful particularly in slightly
+    lower-level languages such as C.'''
    
-'''First, I'm going to create nodes themselves. These will be bi-directional nodes, with references
-   to both previous and subsequent nodes. The methods retr_prev, retr_next, set_prev, and set_next
-   will all check '''
+''' First, I'm going to create nodes themselves. These will be bi-directional nodes, with references
+    to both previous and subsequent nodes. The methods retr_prev, retr_next, set_prev, and set_next
+    will all check '''
 
 class Node(object):
     
@@ -41,16 +41,16 @@ class Node(object):
         else:
             raise TypeError("field 'next_node' in class Node must be of type Node or None")
 
-'''Now, I'll create the linked list itself. For the same reasons as with the Node class, I won't do
-   type checking on this object. The methods I want are to insert a first node, insert a last node,
-   insert a node before a given node, insert a node after a give node, delete the first node, delete
-   the last node, delete a given node, delete a node before a given node, delete a node after a
-   given node, traverse the list to find data, find the number of nodes, and convert this to a
-   Python list.
+''' Now, I'll create the linked list itself. For the same reasons as with the Node class, I won't do
+    type checking on this object. The methods I want are to insert a first node, insert a last node,
+    insert a node before a given node, insert a node after a give node, delete the first node, delete
+    the last node, delete a given node, delete a node before a given node, delete a node after a
+    given node, traverse the list to find data, find the number of nodes, and convert this to a
+    Python list.
    
-   I won't do type-checking here to see if any references to prev_node or next_node are actually of
-   the correct type (i.e. type Node or None), since that is already handled in the definition of the
-   Node class.'''
+    I won't do type-checking here to see if any references to prev_node or next_node are actually of
+    the correct type (i.e. type Node or None), since that is already handled in the definition of the
+    Node class.'''
 
 class LinkedList(object):
     

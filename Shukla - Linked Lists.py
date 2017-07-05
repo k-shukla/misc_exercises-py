@@ -121,6 +121,3 @@ class LinkedList(object):
                 converted_list.append(now_node.retr_data())
                 now_node = now_node.retr_next()
             return converted_list
-    
-    def test_circularity(self):
-        pass
